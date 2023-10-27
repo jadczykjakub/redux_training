@@ -9,5 +9,8 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": { "object-curly-newline": "off" }
+  "rules": {
+    "object-curly-newline": "off",
+    "comma-dangle": [2, "always-multiline"]
+  }
 }

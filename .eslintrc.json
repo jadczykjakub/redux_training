@@ -11,6 +11,8 @@
   },
   "rules": {
     "object-curly-newline": "off",
-    "comma-dangle": [2, "always-multiline"]
+    "comma-dangle": [2, "always-multiline"],
+    "no-param-reassign": "off",
+    "react/jsx-one-expression-per-line": "off"
   }
 }

@@ -5,6 +5,7 @@ import { addUser, deleteUser, updateUsername } from '../features/Users';
 
 export default function Users() {
   const dispatch = useDispatch();
+  // @ts-ignore
   const userList = useSelector((state) => state.users.value);
   const [name, setName] = useState('');
   const [username, setUsername] = useState('');
